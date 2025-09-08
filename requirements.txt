@@ -2,4 +2,3 @@ speechrecognition
 pyttsx3
 pywhatkit
 pyaudio
-pyjokes
