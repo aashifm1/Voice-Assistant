@@ -1,33 +1,31 @@
-# 🎙️ Python Voice Assistant (Alexa-Like)
+# Voice Assistant (Alexa)
 
-This is a voice-controlled assistant built with Python. It listens to your voice, recognizes commands using Google Speech Recognition, responds using text-to-speech, and performs basic tasks like opening websites, telling the time/date, or playing songs on YouTube.
-
-## ✨ Features
-
-- 🎤 **Voice Recognition**  
-  Uses the microphone to listen and recognize speech in real time.
-
-- 🗣 **Text-to-Speech Feedback**  
-  Responds with spoken output using `pyttsx3`.
-
-- 🔗 **Smart Commands**  
+A Voice assistant like Alexa, built with Python. It is built for voice contolled commands to do the tasks. The below is the basic feature of the voice assistant.
+- **Voice Recognition**
+- **Text-to-Speech Feedback**  
+- **Smart Commands**  
   Recognizes and acts on voice commands to:
-  - 🔍 Open websites (YouTube, DuckDuckGo, ChatGPT, WhatsApp Web)
-  - 🎵 Play YouTube videos by saying “play [song name]”
-  - ⏰ Tell current time and date
-  - 🛑 Exit gracefully by saying "exit", "stop", or "quit"
-
-- 🧠 **Basic Error Handling**  
+  - Open websites (YouTube, DuckDuckGo, ChatGPT, WhatsApp Web)
+  - Play YouTube videos by saying “play [song name]”
+  - Tell current time and date
+  - Exit gracefully by saying "exit", "stop", or "quit"
+- **Basic Error Handling**  
   Gracefully handles timeouts, recognition errors, and microphone silence.
 
----
 
-## 🛠 Requirements
+## Installation
+Clone this repository
+```bash
+git clone https://github.com/aashifm1/Voice-Assistant.git
+cd Voice-Assistant
+```
 
-- Python 3.8 or higher  
-- Microphone (for voice input)
-
-Install dependencies:
-
+Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+Execution
+```bash
+python voice.py
+```
