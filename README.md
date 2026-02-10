@@ -1,4 +1,4 @@
-s# Voice Assistant (Alexa)
+# Voice Assistant (Alexa)
 
 A Voice assistant like Alexa, built with Python. It is built for voice contolled commands to do the tasks. The below is the basic features of the voice assistant.
 - **Voice Recognition**
